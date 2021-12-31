@@ -1,0 +1,151 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background: #0a0c1c;
+  align-items: center;
+}
+
+.card-container {
+  width: 1110px;
+  height: 446px;
+  margin-top: 177px;
+  flex-direction: row;
+  background-color: #1b1937;
+  border-radius: 8px;
+}
+
+.insights {
+  width: 548px;
+  height: 446px;
+  flex-direction: column;
+  float: left;
+}
+
+.get-container {
+  width: 403px;
+  height: 88px;
+  margin-left: 72px;
+  margin-top: 71px;
+}
+
+.get {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+span {
+  color: #ab5cdb;
+}
+
+.discover-container {
+  flex-direction: row;
+  width: 374px;
+  height: 75px;
+  margin-top: 30px;
+}
+
+.discover-text {
+  font-size: 15px;
+  font-weight: light 100;
+  color: #ffffff;
+  line-height: 20px;
+  padding-right: 10px;
+}
+
+.numbers-container {
+  width: 374px;
+  height: 75px;
+
+  margin-top: 50px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.comp {
+  width: 83px;
+  height: 56px;
+
+  margin-top: 5px;
+  float: left;
+  flex-direction: column;
+  margin-right: 10%;
+  color: #ffffff;
+}
+
+.ten {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.companies {
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.temp {
+  width: 83px;
+  height: 56px;
+
+  flex-direction: column;
+  margin-top: 5px;
+  float: left;
+  flex-direction: column;
+  margin-right: 10%;
+}
+
+.que {
+  width: 83px;
+  height: 56px;
+
+  flex-direction: column;
+  margin-top: 5px;
+  float: left;
+  flex-direction: column;
+}
+
+.purple {
+  width: 550px;
+  height: 446px;
+  flex-direction: column;
+  float: right;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #ab5cdb;
+}
+
+.purple img {
+  width: 550px;
+  height: 446px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  opacity: 0.5;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #ab5cdb;
+  margin-top: 10px;
+}
+.attribution a {
+  color: white;
+}
+
+.attribution:hover a {
+  color: red;
+}
